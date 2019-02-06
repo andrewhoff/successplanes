@@ -3,7 +3,7 @@ package successplanes
 import (
 	"time"
 
-	"github.com/go/src/math/rand"
+	"math/rand"
 )
 
 const (
