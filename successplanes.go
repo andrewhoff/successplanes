@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"math/rand"
+	"github.com/fatih/color"
 )
 
 const (
@@ -16,7 +17,7 @@ const (
 
 // SR71 - returns SR71 in ascii art
 func SR71() string {
-	return successPlanes[IDX_SR71]
+	return color.Red(successPlanes[IDX_SR71])
 }
 
 // F117 - returns F117 in ascii art
