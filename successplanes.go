@@ -1,4 +1,4 @@
-package successplanes
+package libsuccessplanes
 
 import (
 	"time"
