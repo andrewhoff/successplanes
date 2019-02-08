@@ -1,4 +1,4 @@
-module github.com/andrewhoff/libsuccessplanes 
+module github.com/andrewhoff/successplanes
 
 require (
 	github.com/fatih/color v1.7.0
