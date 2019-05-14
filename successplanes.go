@@ -4,7 +4,6 @@ import (
 	"time"
 
 	"math/rand"
-	"github.com/fatih/color"
 )
 
 const (
@@ -17,7 +16,7 @@ const (
 
 // SR71 - returns SR71 in ascii art
 func SR71() string {
-	return color.RedString(successPlanes[IDX_SR71])
+	return successPlanes[IDX_SR71]
 }
 
 // F117 - returns F117 in ascii art
@@ -60,7 +59,7 @@ var successPlanes = []string{
                ~~~    / H          [H]          H \    ~~~
                      / _H_         _H_         _H_ \
  		       UUU         UUU         UUU`,
-	`     ^
+	`          ^
          / \
         //V\\
        / \|/ \
@@ -74,7 +73,7 @@ var successPlanes = []string{
   \/   / \ / \   \/
       /   V   \
      |         |`,
-	`                     ||   ___     ___     ___   ||
+	`                       ||   ___     ___     ___   ||
                           ||  /   \   /| |\   /   \  ||
                           || |  O  |__|| ||__|  O  | ||
                           ||  \___/--/^^^^^\--\___/  ||
@@ -83,14 +82,14 @@ var successPlanes = []string{
   /.---------________|  |___________\__(*)__/___________|  |________---------.\
             |    |   '$$'   |                       |   '$$'   |    |
            (o)  (o)        (o)                     (o)        (o)  (o)`,
-	`       \     /
+	`             \     /
                  \ _ /
               ----/_\----
   x--------------( . )--------------x
        x|x   | |_|\_/|_| |   x|x
         x    x           x    x     
 `,
-	`   /\
+	`         /\
            /  \
            |  |
            |/\|
