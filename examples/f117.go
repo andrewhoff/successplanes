@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	sp "github.com/andrewhoff/successplanes"
+	sp "successplanes"
 )
 
 func main() {
